@@ -15,7 +15,7 @@
   Application-ID / Hop-by-Hop / End-to-End / AVP Code / Vendor-ID fields.
   Those are `bit-and`/`bit-or`/`bit-shift-left`/`unsigned-bit-shift-right`
   work, done here."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (defn ->ints
   "Anything byte-like as a vector of 0-255 ints."
