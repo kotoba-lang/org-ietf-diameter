@@ -189,7 +189,7 @@ that, because collapsing them loses which of the two layers was wrong.
 
 ```sh
 clojure -M:test                                                        # JVM
-nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljs   # ClojureScript
+nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljk   # ClojureScript
 ```
 
 Both are worth running. This library assembles every field with
