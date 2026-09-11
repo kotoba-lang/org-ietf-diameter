@@ -98,7 +98,7 @@
   number on one platform and not the other.
 
   This was found by actually running the suite under nbb
-  (`scripts/verify-cljs.cljs`), not by reasoning about it — the JVM side
+  (`scripts/verify-cljs.cljk`), not by reasoning about it — the JVM side
   was green the whole time. Ten assertions across four namespaces failed
   on the ClojureScript path before this fold existed."
   [[b0 b1 b2 b3]]

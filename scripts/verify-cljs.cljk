@@ -11,7 +11,7 @@
 ;; exists precisely because the naive bitwise route gives two different
 ;; answers on the two platforms (see its docstring).
 ;;
-;;   nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljs
+;;   nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljk
 (ns verify-cljs
   (:require [clojure.test :as t]
             [diameter.avp-test]
