@@ -1,4 +1,4 @@
-#!/usr/bin/env nbb
+#!/usr/bin/env kbb
 ;; Run the suite on the ClojureScript side.
 ;;
 ;; Not a formality for this codec. Every field in a Diameter header or AVP
@@ -11,7 +11,7 @@
 ;; exists precisely because the naive bitwise route gives two different
 ;; answers on the two platforms (see its docstring).
 ;;
-;;   nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljk
+;;   kbb --backend sci --classpath "$(kbb -A:cljs -Spath)" scripts/verify-cljs.cljk
 (ns verify-cljs
   (:require [clojure.test :as t]
             [diameter.avp-test]
